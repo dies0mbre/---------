@@ -66,7 +66,7 @@ def run(
 ):
     images = [os.path.join(file_directory, f'{i}{name}.{pictureFormat}') for i in range(1, imagesCount + 1)]
     print(images)
-    templates = [os.path.join(template_directory, f'{i}.{pictureFormat}') for i in range(1, templatesCount + 1)]
+    templates = [os.path.join(template_directory, f'{i}.{pictureFormat}') for i in range(0, templatesCount + 1)]
     # print(templates)
 
     for template in templates:
